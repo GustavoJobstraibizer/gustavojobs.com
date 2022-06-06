@@ -13,8 +13,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "baseUrl": "src",
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Wrapper.js", "src/components/Post.js", "src/components/CommandBar.js", "src/components/ButtonPrimary.js", "src/components/Box.js"],
   "exclude": ["node_modules"]
 }
